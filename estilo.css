@@ -1,0 +1,457 @@
+/*CONFIGURAÇÃO*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Source Sans Pro", sans-serif;
+    box-sizing: border-box;
+}
+
+/*TOPO*/
+
+header
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.logo-topo
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+}
+
+h1
+{
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/*CONTEÚDO-1*/
+
+.caixa1
+{
+    background-image: url("assets/imagens/bahia.jpg");
+    background-size: cover;
+    height: auto;
+    border: 1px solid black;
+}
+
+.box1
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*Formulários*/
+
+.titulo2
+{
+    width: 800px;
+}
+
+form
+{
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: 60%;
+    height: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px black;
+    font-size: 16px;
+    background: white;
+    border: 3px solid #66CDAA;
+}
+.email, .nome, .telefone, .ida, .volta, .origem, .destino
+{
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*Box select abaixo*/
+.box-ida, .box-volta, .box-origem, .box-destino
+{
+    width: 300px;
+    height: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #064430;
+}
+.box-ida:hover, .box-volta:hover, .box-origem:hover, .box-destino:hover
+{
+    width: 300px;
+    height: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #66CDAA;
+}
+/*Box select acima*/
+
+
+/* Box inputs abaixo*/
+.box-nome, .box-email, .box-telefone
+{
+    border-radius: 5px;
+    border: 2px solid #064430;
+}
+.box-nome:hover, .box-email:hover, .box-telefone:hover
+{
+    border-radius: 5px;
+    border: 2px solid #66CDAA;
+}
+/* Box inputs acima*/
+
+.voo
+{
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+/*box Informações adicionais abaixo*/
+.adicionais, .input-adicional
+{
+    padding: 5px;
+}
+
+.adicionais
+{
+    border-radius: 5px;
+    border: 2px solid #064430;
+}
+.adicionais:hover
+{
+    border-radius: 5px;
+    border: 2px solid #66CDAA;
+}
+/*Box informações adicionais acima*/
+
+/*Legenda, label e borda dos formulários*/
+.legend-adicional
+{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.legend-adicional:hover
+{
+    font-size: 16px;
+}
+
+.titulo
+{
+    height: auto;
+    width: 100%;
+    background: #66CDAA;
+    box-shadow: 0px 1px 5px black;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    color: whitesmoke;
+    font-weight: normal;
+    border-radius: 5px;
+}
+.titulo:hover
+{
+    height: auto;
+    width: 50%;
+    transition-duration: 1s;
+    background: #064430;
+    box-shadow: 0px 1px 5px black;
+}
+label
+{
+    font-size: 16px;
+}
+
+/*Botão*/
+
+.button
+{
+    padding: 2% 0 2% 0;
+}
+
+button
+{
+    background: #66CDAA;
+    color: #fff;
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px black;
+    font-size: 16px;
+}
+
+
+/*Seção ofertas*/
+
+.boxtitulo
+{
+    width: 100%;
+    margin: 10px 0px;
+}
+.titulo3
+{
+    margin-left: 135px;
+}
+
+.boxofertas
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.destaque
+{
+    width: 40%;
+    height: auto;
+    background-image: url("assets/imagens/rio.jpg");
+    background-size: cover;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.oferta
+{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.caixa
+{
+    width: 240px;
+    height: 160px;
+    margin: 0px 10px 5px 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    box-sizing: border-box;
+}
+
+.manaus
+{
+    background-image: url("assets/imagens/manaus.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 1px 10px black;
+}
+.saopaulo
+{
+    background-image: url("assets/imagens/saopaulo.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 1px 10px black;
+}
+.niteroi
+{
+    background-image: url("assets/imagens/niteroi.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 1px 10px black;
+}
+.maranhao
+{
+    background-image: url("assets/imagens/maranhao.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 1px 10px black;
+}
+    
+
+.descricao-destaque
+{
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    background: #66CDAA;
+    box-shadow: 0px 1px 10px black;
+}
+.descricao
+{
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    background: #66CDAA;
+    box-shadow: 0px 1px 10px black;
+}
+
+/*Seção anúncios*/
+
+.boxanuncio
+{
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.anuncio
+{
+    margin: 10px;
+}
+.maranhense
+{
+    width: 40%;
+    height: 328px;
+    background-image: url("assets/imagens/lencol.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px black;
+
+}
+
+.cachoeira
+{
+    
+    width: 38%;
+    height: 328px;
+    background-image: url("assets/imagens/goias.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px black;
+
+}
+.legenda1
+{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+.legenda1:hover, .legenda2:hover
+{
+    background: #064430;
+    transition-duration: 1s;
+}
+
+.legenda2
+{
+    width: 38%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.legend
+{
+    margin: 10px;
+    background-color: #66CDAA;
+    box-shadow: 0px 1px 10px black;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.texto
+{
+    margin-bottom: 10px;
+}
+
+/*Rodapé*/
+
+footer
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background: #66CDAA;
+}
+
+.contato, .rede
+{
+    width: 40%;
+    height: auto;
+    background: #66CDAA;
+}
+
+.logo-rodape
+{
+    width: 20px;
+    height: 20px;
+}
+
+figure
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start ;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+figcaption
+{
+    display: flex;
+    flex-flow: row;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.titulo-rodape
+{
+    color: whitesmoke;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+figure:hover
+{
+    background: #064430;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    transition-duration: 2s;
+}
+
+figcaption:hover
+{
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.rio-rj:hover
+{
+    width: 40%;
+}
+
+.cel:hover
+{
+    width: 45%;
+}
+
+.mail:hover
+{
+    width: 60%;
+}
+
+
+
